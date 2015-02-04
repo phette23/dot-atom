@@ -1,0 +1,23 @@
+"*":
+  editor:
+    tabLength: 4
+    softWrap: true
+    invisibles: {}
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
+  welcome:
+    showOnStartup: false
+  "markdown-preview":
+    breakOnSingleNewline: true
+  jsformat: {}
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 4
