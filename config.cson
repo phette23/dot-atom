@@ -17,6 +17,11 @@
   jsformat: {}
   linter: {}
   "linter-jshint": {}
+  "linter-python-pep8":
+    "pep8DirToExecutable": '/usr/local/bin/'
+  emmet: {}
+  "django-templates":
+    defaultToDjangoTemplatesForFilePathsContaining: "crossword"
 ".js.regexp.source":
   editor:
     tabLength: 4
