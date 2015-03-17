@@ -12,7 +12,7 @@
       ".git"
       ".DS_Store"
       "__pycache__"
-      ".pyc"
+      "*.pyc"
     ]
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
@@ -24,10 +24,11 @@
   linter: {}
   "linter-jshint": {}
   "linter-python-pep8":
-    "pep8DirToExecutable": '/usr/local/bin/'
+    pep8DirToExecutable: "/usr/local/bin/"
   emmet: {}
-  "django-templates":
-    defaultToDjangoTemplatesForFilePathsContaining: "crossword"
+  "django-templates": {}
+  "tree-view":
+    hideIgnoredNames: true
 ".js.regexp.source":
   editor:
     tabLength: 4
