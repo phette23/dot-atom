@@ -5,8 +5,14 @@
     invisibles: {}
   core:
     themes: [
-      "atom-dark-ui"
-      "atom-dark-syntax"
+      "one-dark-ui"
+      "monokai"
+    ]
+    ignoredNames: [
+      ".git"
+      ".DS_Store"
+      "__pycache__"
+      ".pyc"
     ]
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
