@@ -23,12 +23,11 @@
   jsformat: {}
   linter: {}
   "linter-jshint": {}
-  "linter-python-pep8":
-    pep8DirToExecutable: "/usr/local/bin/"
   emmet: {}
   "django-templates": {}
   "tree-view":
     hideIgnoredNames: true
+  "linter-flake8": {}
 ".js.regexp.source":
   editor:
     tabLength: 4
