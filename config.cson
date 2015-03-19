@@ -28,6 +28,8 @@
   "tree-view":
     hideIgnoredNames: true
   "linter-flake8": {}
+  "filetype-color":
+    enabled: "true"
 ".js.regexp.source":
   editor:
     tabLength: 4
