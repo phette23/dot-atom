@@ -27,7 +27,8 @@
   "django-templates": {}
   "tree-view":
     hideIgnoredNames: true
-  "linter-flake8": {}
+  "linter-flake8":
+      executableDir: '/usr/local/bin/'
   "filetype-color":
     enabled: "true"
 ".js.regexp.source":
