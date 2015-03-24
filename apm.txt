@@ -3,7 +3,6 @@ atom-semicolons@0.1.5
 color-picker@1.4.4
 command-logger@0.22.0
 django-templates@0.4.0
-editor-stats@0.17.0
 emmet@2.3.4
 filetype-color@0.1.4
 git-plus@4.4.9
