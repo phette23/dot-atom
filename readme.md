@@ -13,7 +13,7 @@ On a new Atom instance, we can get all my packages—which might have correspond
 > for line in (cat apm.txt); apm install $line; end
 ```
 
-The list of packages in apm.txt may not be complete. To refresh the list, run:
+To refresh the list, we can run:
 
 ```sh
 > apm list -b --installed > apm.txt
