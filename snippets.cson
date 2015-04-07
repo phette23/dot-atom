@@ -20,6 +20,9 @@
     'Console.log':
         'prefix': 'cl'
         'body': 'console.log($1)'
+    'IIFE':
+        'prefix': 'iife'
+        'body': '(function() {\n\t$1\n})()'
 '.text.plain':
     'All College Honors app':
         'prefix': 'ach'
