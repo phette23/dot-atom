@@ -27,7 +27,8 @@
   jsformat: {}
   linter: {}
   "linter-jshint": {}
-  emmet: {}
+  emmet:
+    extensionsPath: "~/.config/emmet"
   "django-templates": {}
   "tree-view":
     hideIgnoredNames: true
