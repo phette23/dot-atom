@@ -27,3 +27,10 @@
     'All College Honors app':
         'prefix': 'ach'
         'body': 'VAULT Access to CCA All College Honors Applications\n\nHello ${1:givenname},\n\nThank you for agreeing to judge California College of the Arts\' All College Honors competition in the category of ${2}. All College Honors applications are hosted in VAULT, CCA\'s digital archive. You have been given a temporary login to VAULT with the following credentials:\n\nUsername: achjuror${3}\nPassword: ${4}\n\nHere is a direct link to the applications you are judging. The account is associated with your email address and you can change the password if you like. Please feel free to contact me at this email address or 510-594-3660 with any questions regarding VAULT or accessing applications.\n\n'
+'.source.gfm':
+    'Fluid iFrame':
+        'prefix': 'fif'
+        'body': '<div style="width:100%;position:relative;padding:0;padding-top:75%;max-width:40em;">\n\t<iframe\n    style="position:absolute;top:0;left:0;width:100%;height:100%;max-height:30em;"\n\tsrc="${1:url}"\n\tframeborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">\n\t</iframe>\n</div>'
+    'Fluid YouTube iFrame':
+        'prefix': 'fyt'
+        'body': '<div style="width:100%;position:relative;padding:0;padding-top:75%;max-width:40em;">\n\t<iframe\n    style="position:absolute;top:0;left:0;width:100%;height:100%;max-height:30em;"\n\tsrc="https://www.youtube.com/embed/${1:id}"\n\tframeborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">\n\t</iframe>\n</div>'
