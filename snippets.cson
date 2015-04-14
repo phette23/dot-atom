@@ -17,9 +17,18 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 '.source.js':
-    'Console.log':
+    'anonymous function':
+        'prefix': 'afn'
+        'body': 'function (${2:params}) {\n\t${3:// body}\n}'
+    'console.error':
+        'prefix': 'ce'
+        'body': 'console.error($1)'
+    'console.log':
         'prefix': 'cl'
         'body': 'console.log($1)'
+    'function':
+        'prefix': 'fn'
+        'body': 'function ${1:name} (${2:params}) {\n\t${3:// body}\n}'
     'IIFE':
         'prefix': 'iife'
         'body': '(function() {\n\t$1\n})()'
