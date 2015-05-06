@@ -24,7 +24,8 @@
     showOnStartup: false
   "markdown-preview":
     breakOnSingleNewline: true
-  jsformat: {}
+  jsformat:
+    format_on_save: false
   linter: {}
   "linter-jshint": {}
   emmet:
