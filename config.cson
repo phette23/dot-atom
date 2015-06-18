@@ -37,6 +37,8 @@
     executableDir: "/usr/local/bin/"
   "filetype-color":
     enabled: "true"
+  tabs:
+    enableVcsColoring: true
 ".js.regexp.source":
   editor:
     tabLength: 4
