@@ -17,9 +17,6 @@
       "*.pyc"
     ]
     projectHome: "/Users/phette23/code"
-    disabledPackages: [
-      "linter-scss-lint"
-    ]
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
   welcome:
@@ -28,7 +25,8 @@
     breakOnSingleNewline: true
   jsformat:
     format_on_save: false
-  linter: {}
+  linter:
+    lintOnFly: false
   "linter-jshint": {}
   emmet:
     extensionsPath: "~/.config/emmet"
