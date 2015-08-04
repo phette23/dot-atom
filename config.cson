@@ -35,8 +35,6 @@
     hideIgnoredNames: true
   "linter-flake8":
     executableDir: "/usr/local/bin/"
-  "filetype-color":
-    enabled: "true"
   tabs:
     enableVcsColoring: true
 ".js.regexp.source":
