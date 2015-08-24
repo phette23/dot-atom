@@ -20,6 +20,12 @@ atom-text-editor {
 
 // To style other content in the text editor's shadow DOM, use the ::shadow
 // expression
-atom-text-editor::shadow .cursor {
+atom-text-editor::shadow {
+    // override Monokai's handling of "invalid" ampersands
+    // which are perfectly fine most of the time
+    .invalid.bad-ampersand.html {
+        background-color: inherit !important;
+        color: inherit !important;
+    }
 
 }
