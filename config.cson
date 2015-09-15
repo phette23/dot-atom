@@ -35,6 +35,7 @@
     hideIgnoredNames: true
   "linter-flake8":
     executableDir: "/usr/local/bin/"
+    maxLineLength: 200
   tabs:
     enableVcsColoring: true
 ".js.regexp.source":
