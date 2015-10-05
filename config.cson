@@ -17,6 +17,7 @@
       "*.pyc"
     ]
     projectHome: "/Users/phette23/code"
+    audioBeep: false
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
   welcome:
@@ -27,17 +28,23 @@
     format_on_save: false
   linter:
     lintOnFly: false
-  "linter-jshint": {}
+  "linter-jshint":
+    lintInlineJavaScript: true
   emmet:
     extensionsPath: "~/.config/emmet"
   "django-templates": {}
   "tree-view":
     hideIgnoredNames: true
   "linter-flake8":
-    executableDir: "/usr/local/bin/"
-    maxLineLength: 200
+    executableDir: "/usr/local/bin"
+    ignoreErrorCodes: [
+      "E501"
+    ]
   tabs:
     enableVcsColoring: true
+  "linter-scss-lint":
+    executablePath: "/usr/local/bin/scss-lint"
+  "git-plus": {}
 ".js.regexp.source":
   editor:
     tabLength: 4
