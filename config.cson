@@ -1,15 +1,6 @@
 "*":
-  editor:
-    tabLength: 4
-    softWrap: true
-    invisibles: {}
-    fontSize: 16
-    lineHeight: 1.3
   core:
-    themes: [
-      "one-dark-ui"
-      "monokai"
-    ]
+    audioBeep: false
     ignoredNames: [
       ".git"
       ".DS_Store"
@@ -17,34 +8,43 @@
       "*.pyc"
     ]
     projectHome: "/Users/phette23/code"
-    audioBeep: false
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  "django-templates": {}
+  editor:
+    fontSize: 16
+    invisibles: {}
+    lineHeight: 1.3
+    softWrap: true
+    tabLength: 4
+  emmet:
+    extensionsPath: "~/.config/emmet"
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
-  welcome:
-    showOnStartup: false
-  "markdown-preview":
-    breakOnSingleNewline: true
+  "git-plus": {}
   jsformat:
     format_on_save: false
   linter:
     lintOnFly: false
-  "linter-jshint":
-    lintInlineJavaScript: true
-  emmet:
-    extensionsPath: "~/.config/emmet"
-  "django-templates": {}
-  "tree-view":
-    hideIgnoredNames: true
   "linter-flake8":
     executableDir: "/usr/local/bin"
     ignoreErrorCodes: [
       "E501"
     ]
-  tabs:
-    enableVcsColoring: true
+  "linter-jshint":
+    lintInlineJavaScript: true
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
-  "git-plus": {}
+  "markdown-preview":
+    breakOnSingleNewline: true
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
 ".js.regexp.source":
   editor:
     tabLength: 4
