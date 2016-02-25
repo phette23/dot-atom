@@ -12,7 +12,6 @@
       "one-dark-ui"
       "monokai"
     ]
-  "django-templates": {}
   editor:
     fontSize: 16
     invisibles: {}
@@ -26,6 +25,7 @@
   "git-plus": {}
   jsformat:
     format_on_save: false
+  "language-babel": {}
   linter:
     lintOnFly: false
   "linter-flake8":
@@ -37,6 +37,7 @@
     lintInlineJavaScript: true
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
+  "linter-xmllint": {}
   "markdown-preview":
     breakOnSingleNewline: true
   tabs:
