@@ -1,6 +1,8 @@
 "*":
   core:
     audioBeep: false
+    customFileTypes:
+        'text.xml': ['marcxml']
     ignoredNames: [
       ".git"
       ".DS_Store"
