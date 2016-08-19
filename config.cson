@@ -3,6 +3,10 @@
     audioBeep: false
     customFileTypes:
         'text.xml': ['marcxml']
+    disabledPackages: [
+      "linter-flake8"
+      "linter-scss-lint"
+    ]
     ignoredNames: [
       ".git"
       ".DS_Store"
@@ -65,6 +69,12 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
+".babel.regexp.source":
+  editor:
+    tabLength: 4
+".js.jsx.source":
+  editor:
+    tabLength: 4
 ".js.regexp.source":
   editor:
     tabLength: 4
