@@ -2,7 +2,9 @@
   core:
     audioBeep: false
     customFileTypes:
-        'text.xml': ['marcxml']
+      "text.xml": [
+        "marcxml"
+      ]
     disabledPackages: [
       "linter-flake8"
       "linter-scss-lint"
@@ -31,6 +33,7 @@
       "*~"
     ]
     projectHome: "/Users/phette23/code"
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "monokai"
