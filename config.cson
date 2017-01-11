@@ -6,8 +6,9 @@
         "marcxml"
       ]
     disabledPackages: [
-      "linter-flake8"
-      "linter-scss-lint"
+      "git-plus"
+      "linter"
+      "linter-jshint"
     ]
     ignoredNames: [
       ".git"
@@ -48,7 +49,9 @@
     extensionsPath: "~/.config/emmet"
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
-  "git-plus": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "81b049ff-1481-4daa-8965-45d2261fe119"
   jsformat:
     format_on_save: false
   "language-babel": {}
