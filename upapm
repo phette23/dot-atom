@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+apm list --installed --bare | sed -e 's/@.*//' > apm.txt
