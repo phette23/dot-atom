@@ -6,7 +6,6 @@
         "marcxml"
       ]
     disabledPackages: [
-      "git-plus"
       "linter"
       "linter-jshint"
     ]
