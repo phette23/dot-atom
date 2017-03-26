@@ -1,4 +1,6 @@
+busy-signal
 emmet
+intentions
 jsformat
 language-babel
 language-diff
@@ -8,6 +10,8 @@ language-htaccess
 language-perl-template-toolkit
 linter
 linter-jshint
+linter-ui-default
 monokai
 pretty-json
 sort-lines
+
