@@ -32,6 +32,10 @@
     'IIFE':
         'prefix': 'iife'
         'body': '(function() {\n\t$1\n})()'
+'.text.html':
+    'liquid comment':
+        'prefix': 'lc'
+        'body': '{% comment %}\n${1:comment}\n{% endcomment %}'
 '.text.plain':
     'All College Honors app':
         'prefix': 'ach'
