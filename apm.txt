@@ -1,5 +1,7 @@
 busy-signal
+color-picker
 emmet
+git-plus
 intentions
 jsformat
 language-babel
@@ -7,6 +9,7 @@ language-diff
 language-fish-shell
 language-freemarker
 language-htaccess
+language-ini
 language-perl-template-toolkit
 linter
 linter-jshint
@@ -14,4 +17,4 @@ linter-ui-default
 monokai
 pretty-json
 sort-lines
-
+xml-formatter
