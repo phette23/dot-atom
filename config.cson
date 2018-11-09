@@ -1,14 +1,11 @@
 "*":
   core:
     audioBeep: false
+    closeDeletedFileTabs: true
     customFileTypes:
       "text.xml": [
         "marcxml"
       ]
-    disabledPackages: [
-      "linter"
-      "linter-jshint"
-    ]
     ignoredNames: [
       ".git"
       ".DS_Store"
@@ -33,7 +30,7 @@
       "*~"
     ]
     projectHome: "/Users/phette23/code"
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "monokai"
@@ -54,8 +51,7 @@
   jsformat:
     format_on_save: false
   "language-babel": {}
-  linter:
-    lintOnFly: false
+  linter: {}
   "linter-flake8":
     executableDir: "/usr/local/bin"
     ignoreErrorCodes: [
