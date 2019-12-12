@@ -1,3 +1,5 @@
+atom-jinja2
+atom-liquid-snippets
 busy-signal
 color-picker
 emmet
@@ -10,6 +12,7 @@ language-fish-shell
 language-freemarker
 language-htaccess
 language-ini
+language-liquid
 language-perl-template-toolkit
 linter
 linter-jshint
