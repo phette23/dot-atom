@@ -6,6 +6,9 @@
       "text.xml": [
         "marcxml"
       ]
+      "text.html.liquid": [
+        "html"
+      ]
     ignoredNames: [
       ".git"
       ".DS_Store"
@@ -82,3 +85,6 @@
 ".js.source":
   editor:
     tabLength: 4
+"source.yaml":
+  editor:
+    tabLength: 2
