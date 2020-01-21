@@ -30,3 +30,5 @@
     'tab': 'emmet:expand-abbreviation-with-tab'
 'atom-text-editor[data-grammar="text html ftl"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'
+'atom-text-editor[data-grammar="text html liquid"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
