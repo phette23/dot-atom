@@ -3,11 +3,11 @@
     audioBeep: false
     closeDeletedFileTabs: true
     customFileTypes:
-      "text.xml": [
-        "marcxml"
-      ]
       "text.html.liquid": [
         "html"
+      ]
+      "text.xml": [
+        "marcxml"
       ]
     ignoredNames: [
       ".git"
