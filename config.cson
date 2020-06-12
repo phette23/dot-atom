@@ -64,9 +64,14 @@
     lintInlineJavaScript: true
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
+  "linter-ui-default":
+    showPanel: true
   "linter-xmllint": {}
   "markdown-preview":
     breakOnSingleNewline: true
+    useGitHubStyle: true
+  "spell-check":
+    useLocales: false
   tabs:
     enableVcsColoring: true
   "tree-view":
