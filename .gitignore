@@ -7,3 +7,4 @@ blob-store
 compile-cache
 recovery
 storage
+.atom-socket-secret*
