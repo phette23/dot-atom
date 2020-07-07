@@ -9,6 +9,9 @@
       "text.xml": [
         "marcxml"
       ]
+    editor:
+      multiCursorOnClick: true
+    excludeVcsIgnoredPaths: true
     ignoredNames: [
       ".git"
       ".DS_Store"
@@ -64,8 +67,7 @@
     lintInlineJavaScript: true
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "linter-xmllint": {}
   "markdown-preview":
     breakOnSingleNewline: true
@@ -76,6 +78,7 @@
     enableVcsColoring: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
 ".babel.regexp.source":
