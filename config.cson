@@ -51,6 +51,8 @@
     extensionsPath: "~/.config/emmet"
   "exception-reporting":
     userId: "345c7f03-03bc-b1a6-5af0-367804d36823"
+  "find-and-replace":
+    useRegex: true
   "git-plus":
     general:
       _analyticsUserId: "81b049ff-1481-4daa-8965-45d2261fe119"
