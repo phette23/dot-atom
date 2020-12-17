@@ -16,6 +16,7 @@ language-freemarker
 language-htaccess
 language-ini
 language-liquid
+language-nginx
 language-perl-template-toolkit
 language-todotxt-plus
 linter
