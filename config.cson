@@ -73,7 +73,7 @@
   "linter-xmllint": {}
   "markdown-preview":
     breakOnSingleNewline: true
-    useGitHubStyle: true
+    openPreviewInSplitPane: false
   "spell-check":
     useLocales: false
   tabs:
