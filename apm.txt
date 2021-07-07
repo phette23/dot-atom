@@ -3,6 +3,7 @@ atom-liquid-snippets
 busy-signal
 color-picker
 docblock-python
+docblockr
 editorconfig
 emmet
 git-plus
@@ -20,6 +21,7 @@ language-nginx
 language-perl-template-toolkit
 language-todotxt-plus
 linter
+linter-flake8
 linter-jshint
 linter-ui-default
 monokai

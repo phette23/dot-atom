@@ -62,6 +62,7 @@
   linter: {}
   "linter-flake8":
     executableDir: "/usr/local/bin"
+    executablePath: "/usr/local/bin/flake8"
     ignoreErrorCodes: [
       "E501"
     ]
