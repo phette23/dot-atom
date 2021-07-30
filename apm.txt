@@ -21,8 +21,8 @@ language-nginx
 language-perl-template-toolkit
 language-todotxt-plus
 linter
+linter-eslint
 linter-flake8
-linter-jshint
 linter-ui-default
 monokai
 pretty-json
