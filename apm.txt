@@ -1,10 +1,8 @@
 atom-jinja2
 atom-liquid-snippets
 busy-signal
-color-picker
 docblock-python
 docblockr
-editorconfig
 emmet
 git-plus
 intentions
